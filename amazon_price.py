@@ -63,13 +63,13 @@ print(new_prices)
 
 # # To send SMS to mobile phone
 
-# to="+917874822586", # Your phone number, don’t forget to add the country code. This should be hidden
+# to="+91", # Your phone number, don’t forget to add the country code. This should be hidden
 
-# from_="+15106500813", # Your Twilio phone number. This should be hidden
+# from_="+1", # Your Twilio phone number. This should be hidden
 
 # body=f"There are {len(new_prices)} Macbook within budget, ₹100000" # message that will be sent to your mobile phone
 
 # )
 
 
-pywhatkit.sendwhatmsg_to_group("IabiTeinsJJ0So4MbpNUrb",f"There are {len(new_prices)} Macbook within budget, ₹100000", 16, 48)
+pywhatkit.sendwhatmsg_to_group("",f"There are {len(new_prices)} Macbook within budget, ₹100000", 16, 48)
