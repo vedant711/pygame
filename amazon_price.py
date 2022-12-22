@@ -56,8 +56,8 @@ for p in prices:
             new_prices.append(int(p))
 print(new_prices)
 
-# auth_token = 'bd9e7df8dda3006991ad4945e363fb90'
-# account_sid='ACf5d15f709d3a6deb62d403ca833d046d'
+# auth_token = ''
+# account_sid=''
 # client = Client(account_sid,auth_token)
 # client.messages.create(
 
